@@ -1,0 +1,13 @@
+{
+	"name": "DatabaseLogger",
+	"description": "Database CakePHP Plugin",
+
+	"author": "Nick Baker",
+	"authorUrl": "http://www.webtechnick.com",
+
+	"dependencies": {
+		"plugins": [
+			"extensions"
+		]
+	}
+}
