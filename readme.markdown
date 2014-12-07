@@ -24,7 +24,7 @@ Clone the repository into your `app/Plugin/DatabaseLogger` directory:
 
 Run the schema into your database:
 
-	$ cake schema create --plugin DatabaseLog
+	$ cake schema create --plugin DatabaseLogger
 	
 ## Setup
 
@@ -42,7 +42,7 @@ Pro Tip: You can read from a different datasource than you write to, and they bo
 Update the file `app/Config/bootstrap.php` with the following configurations like so:
 
 	App::uses('CakeLog','Log');
-	CakeLog::config('default', array('engine' => 'DatabaseLogger.DatabaseLogger'));
+	CakeLog::config('default', array('engine' => 'DatabaseLogger.DatabaseLog'));
 
 ## Usage
 
