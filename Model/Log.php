@@ -9,6 +9,7 @@ class Log extends DatabaseLoggerAppModel {
 		$this->data[$this->alias]['hostname'] = env('HTTP_HOST');
 		$this->data[$this->alias]['uri'] = env('REQUEST_URI');
 		$this->data[$this->alias]['refer'] = env('HTTP_REFERER');
+		$this->data[$this->alias]['user_agent'] = env('HTTP_USER_AGENT');
 		return true;
 	}
 	
